@@ -74,8 +74,8 @@ if(isset($_POST["action"]))
 			$mail->Host = 'smt.gmail.com';
 			$mail->Port = '80';
 			$mail->SMTPAuth = true;
-			$mail->Username = 'huntercafe69@gmail.com';
-			$mail->Password = '9x334ba0';
+			$mail->Username = 'XXXXXXXXX';
+			$mail->Password = 'XXXXXXX';
 			$mail->SMTPSecure = '';
 			$mail->From = 'huntercafe69@gmail.com';
 			$mail->FromName = 'Roy rahul';
@@ -310,7 +310,7 @@ if(isset($_POST["action"]))
 		$doctor_schedule_data = $object->get_result();
 
 		$html = '
-		<h4 class="text-center">Patient Details</h4>
+		<h4 class="text-center">Student Details</h4>
 		<table class="table">
 		';
 
